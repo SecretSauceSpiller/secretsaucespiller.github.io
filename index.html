@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Secret Website</title>
+      <style>
+         body {
+         background-color: #111;
+         color: #4184FF;
+         font-family: 'Courier New', monospace;
+         text-align: center;
+         margin: 0;
+         padding: 20px;
+         }
+         h1 {
+         font-size: 3em;
+         margin-bottom: 30px;
+         animation: fadeIn 2s ease-in-out;
+         }
+         h2 {
+         font-size: 2em;
+         margin-bottom: 30px;
+         color: #1aa3ff;
+         }
+         p {
+         font-size: 1.5em;
+         line-height: 1.6;
+         margin-bottom: 20px;
+         }
+         @keyframes fadeIn {
+         0% {
+         opacity: 0;
+         transform: translateY(-20px);
+         }
+         100% {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+         @keyframes glow {
+         0%, 100% {
+         box-shadow: 0 0 5px #b3e0ff, 0 0 10px #b3e0ff, 0 0 15px #b3e0ff;
+         }
+         50% {
+         box-shadow: 0 0 10px #b3e0ff, 0 0 15px #b3e0ff, 0 0 20px #b3e0ff;
+         }
+         }
+         @keyframes blink {
+         0%, 100% {
+         opacity: 1;
+         }
+         50% {
+         opacity: 0;
+         }
+         }
+         .quote-section {
+         margin-top: 100px;
+         margin-bottom: 40px;
+         }
+         .quote-box {
+         background-color: #1aa3ff;
+         border-radius: 20px;
+         padding: 30px;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+         text-align: center;
+         color: #fff;
+         font-family: 'Courier New', monospace;
+         font-size: 1.5em;
+         max-width: 800px;
+         position: relative;
+         margin: 0 auto;
+         margin-top: 20px;
+         animation: glow 2.0s ease-in-out infinite;
+         }
+         .quote-text {
+         margin-bottom: 20px;
+         }
+         .quote-author {
+         color: rgba(255, 255, 255, 0.8);
+         }
+         .quote-icon {
+         position: absolute;
+         top: 15px;
+         right: 15px;
+         font-size: 30px;
+         color: rgba(255, 255, 255, 0.8);
+         }
+         .maintenance-note {
+         background-color: #DC143C;
+         font-size: 0.5em;
+         color: #fff;
+         padding: 5px;
+         text-align: center;
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Welcome to My Secret Website</h1>
+      <p>This website is the ultimate hub for all things mysterious and secretive.</p>
+      <div class="quote-section">
+         <h2>Quote of the Day:</h2>
+      </div>
+      <div class="quote-box">
+         <div class="quote-text">Curiosity Keeps Leading Us Down New Paths.</div>
+         <div class="quote-author">- WALT DISNEY</div>
+         <div class="quote-icon">&ldquo;</div>
+      </div>
+      <div class="maintenance-note">
+         <p>This website is no longer actively maintained. Thank you for your support and interest.</p>
+      </div>
+   </body>
+</html>
